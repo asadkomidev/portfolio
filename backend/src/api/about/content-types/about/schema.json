@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "twitter": {
+      "type": "text"
+    },
+    "instagram": {
+      "type": "text"
+    },
+    "github": {
+      "type": "text"
+    },
+    "linkedin": {
+      "type": "text"
+    },
+    "email": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
